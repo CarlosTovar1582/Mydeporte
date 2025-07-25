@@ -35,6 +35,22 @@ const testimonials = [
     src:
       "https://i.postimg.cc/C1m1stjW/Whats-App-Image-2025-07-20-at-9-46-03-AM.jpg",
   },
+  {
+    quote:
+      "2 Grandes leyendas del ciclismo viajero y Julia reunidos en un mismo evento. Gracias por su aporte al grupo AMB ",
+    name: "Evento Canta",
+    designation: "Satisfied Customer",
+    src:
+      "https://i.postimg.cc/43jdgWwm/Whats-App-Image-2025-07-06-at-10-42-01-AM.jpg",
+  },
+  {
+    quote:
+      "El gran shimanito estrenando nuevas tabas para el evento de ticlio. Glorioso proposito ",
+    name: "Evento Ticlio",
+    designation: "Satisfied Customer",
+    src:
+      "https://i.postimg.cc/tCr9br4p/Whats-App-Image-2025-07-16-at-5-47-16-PM.jpg",
+  },
 ];
 
 export  const CircularTestimonialsDemo = () => (
