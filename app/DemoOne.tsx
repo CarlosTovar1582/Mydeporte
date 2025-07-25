@@ -35,11 +35,11 @@ import { ScrollXCarousel,
   export default function DemoOne() {
     return (
       <ScrollXCarousel className="h-[150vh]">
-        <ScrollXCarouselContainer className="h-dvh place-content-center flex flex-col gap-8 py-8">
+        <ScrollXCarouselContainer className="h-dvh  flex flex-col gap-20 py-20">
                   <div className=" pointer-events-none w-[12vw] h-[103%] absolute inset-[0_auto_0_0] z-10 " />
             <div className="pointer-events-none  w-[15vw] h-[103%] absolute inset-[0_0_0_auto] z-10" />
   
-          <ScrollXCarouselWrap className="flex-4/5 flex space-x-8 [&>*:first-child]:ml-8">
+          <ScrollXCarouselWrap className="flex-2 flex space-x-6 [&>*:first-child]:ml-8">
             {SLIDES.map((slide) => (
               <CardHoverReveal
                 key={slide.id}
