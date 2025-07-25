@@ -250,7 +250,7 @@ export const CircularTestimonials = ({
               </motion.p>
             </motion.div>
           </AnimatePresence>
-          <div className="arrow-buttons mt-10 flex justify-center">
+          <div className="arrow-buttons mt-4 flex justify-center">
             <button
               className="arrow-button prev-button mr-4"
               onClick={handlePrev}
@@ -286,18 +286,18 @@ export const CircularTestimonials = ({
         }
         .testimonial-grid {
           display: grid;
-          gap: 2rem;
+         
         }
         .image-container {
           position: relative;
           width: 100%;
-          height: 30rem;
+          height: 28rem;
           perspective: 3000px;
         }
         .testimonial-image {
           position: absolute;
           width: 100%;
-          height: 90%;
+          height: 95%;
           object-fit: cover;
           border-radius: 1.5rem;
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
