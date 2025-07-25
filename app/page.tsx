@@ -19,7 +19,7 @@ export default function Home() {
        
       <div className="mt-10 mx-6 rounded-3xl  "> <DefaultDemo words='Auspiciadores'/></div> 
       <div className="mt-2"> <InfiniteSliderBasic/></div>  
-      <div className=" mx-10 rounded-3xl "> <DefaultDemo  words='Eventos'/></div>
+      <div className=" mx-10 rounded-3xl "> <DefaultDemo  words='Curiosidades'/></div>
       <div className="mt-5 pb-10"> <CircularTestimonialsDemo/></div>
       <div className=" mx-10 rounded-3xl "> <DefaultDemo words='Rutas de Semana' /></div>    
       <div> <DemoOne/></div> 
