@@ -297,7 +297,7 @@ export const CircularTestimonials = ({
         .testimonial-image {
           position: absolute;
           width: 100%;
-          height: 90%;
+          height: 105%;
           object-fit: cover;
           border-radius: 1.5rem;
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
