@@ -7,7 +7,7 @@ import { ScrollXCarousel,
     CardHoverRevealMain,} from '../components/ui/reveal-on-hover'
   import { Badge } from '../components/ui/badge'
   import Image from "next/image"
-  const SLIDES = [
+ const SLIDES = [
     {
       id: 'slide-6',
       title: 'Nota',
@@ -16,7 +16,7 @@ import { ScrollXCarousel,
       caracteristicas: ['nivel : Intermedio- Avanzado'],
       type: 'Entrenamiento',
       imageUrl:
-        'https://i.postimg.cc/dtmPJCcf/FLYER-PRINCIPAL-AMB-CELULAR.png',
+        'https://i.postimg.cc/XvjK5Y0w/Whats-App-Image-2025-07-08-at-7-27-51-PM.jpg',
     },
     {
       id: 'slide-2',
@@ -26,18 +26,9 @@ import { ScrollXCarousel,
         caracteristicas: ['nivel : Elite'],
       type: 'Entrenamiento',
       imageUrl:
-        'https://i.postimg.cc/15YTmrYJ/Whats-App-Image-2025-05-30-at-8-19-30-PM.jpg',
+        'https://i.postimg.cc/d1XGgRZB/Whats-App-Image-2025-07-21-at-8-06-48-PM.jpg',
     },
-    {
-      id: 'slide-3',
-      title: 'Nota',
-      description:
-        'Para este tipo de ruta es complicada ya que tiene mucho desnivel',
-        caracteristicas: ['nivel :  Avanzado'],
-      type: 'Entrenamiento',
-      imageUrl:
-        'https://i.postimg.cc/Bbzg0MQF/otao.jpg',
-    },
+
 
   ];
   
