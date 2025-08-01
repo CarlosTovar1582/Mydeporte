@@ -24,7 +24,7 @@ export default function Home() {
       <div className="mt-5 pb-10"> <CircularTestimonialsDemo/></div>
       <div className=" mx-10 rounded-3xl pb-10 "> <DefaultDemo words='Rutas y Eventos' /></div>    
       <div> <DemoOne/></div> 
- 
+      <div> <StackedCircularFooterDemo/></div>  
 
     </>
   );
