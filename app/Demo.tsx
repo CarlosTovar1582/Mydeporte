@@ -2,7 +2,7 @@
 
 import * as React from "react"
 import { useTheme } from "next-themes"
-import { TextPressure } from "@/components/ui/interactive-text-pressure"
+import { TextPressure } from "../components/ui/interactive-text-pressure"
 
 function getTextColor(theme: string | undefined) {
   // Можно задать любые цвета для light/dark

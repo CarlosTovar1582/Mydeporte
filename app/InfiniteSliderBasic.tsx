@@ -30,21 +30,8 @@ export default function InfiniteSliderBasic() {
         src="https://motion-primitives.com/nintendo_logo.svg"
         alt="Nintendo logo"
         className="h-[120px] w-auto"
-      />
-      <Image
-      width={100}
-      height={100}
-        src="https://motion-primitives.com/jquery_logo.svg"
-        alt="Jquery logo"
-        className="h-[120px] w-auto"
-      />
-      <Image
-      width={100}
-      height={100}
-        src="https://motion-primitives.com/prada_logo.svg"
-        alt="Prada logo"
-        className="h-[120px] w-auto"
-      />
+      />  
+  
     </InfiniteSlider>
   );
 }

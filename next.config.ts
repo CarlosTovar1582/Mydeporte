@@ -35,6 +35,19 @@ const nextConfig: NextConfig = {
         hostname: 'randomuser.me',
         pathname: '**',
       },
+      {
+        protocol: 'https',
+        hostname: 'plus.unsplash.com',
+        pathname: '**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+        pathname: '**',
+      },
+      
+
+      
       
     ],
   },

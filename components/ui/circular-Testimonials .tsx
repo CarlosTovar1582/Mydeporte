@@ -8,7 +8,7 @@ import React, {
   useMemo,
   useCallback,
 } from "react";
-//import Image from "next/image"
+import Image from "next/image"
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -187,10 +187,10 @@ export const CircularTestimonials = ({
     <div className="testimonial-container">
       <div className="testimonial-grid ">
         {/* Images */}
-        <div className="image-container " ref={imageContainerRef}>
+        <div className="image-container mt-2 " ref={imageContainerRef}>
           {testimonials.map((testimonial, index) => (
             <img
-            
+           
               key={testimonial.src}
               src={testimonial.src}
               alt={testimonial.name}
@@ -201,7 +201,7 @@ export const CircularTestimonials = ({
           ))}
         </div>
         {/* Content */}
-        <div className="testimonial-content md:ml-4">
+        <div className="testimonial-content md:ml-14 ">
           <AnimatePresence mode="wait">
             <motion.div
               key={activeIndex}
@@ -250,7 +250,7 @@ export const CircularTestimonials = ({
               </motion.p>
             </motion.div>
           </AnimatePresence>
-          <div className="arrow-buttons mt-10 flex justify-center">
+          <div className="arrow-buttons mt-4 flex justify-center">
             <button
               className="arrow-button prev-button mr-4"
               onClick={handlePrev}
@@ -280,24 +280,25 @@ export const CircularTestimonials = ({
       </div>
       <style jsx>{`
         .testimonial-container {
-          width: 100%;
+          width: 100%;        
           max-width: 100rem;
          
         }
         .testimonial-grid {
           display: grid;
-          gap: 2rem;
+       
         }
         .image-container {
           position: relative;
           width: 100%;
-          height: 32rem;
+          height: 25rem;
           perspective: 3000px;
+      
         }
         .testimonial-image {
           position: absolute;
           width: 100%;
-          height: 100%;
+          height: 85%;
           object-fit: cover;
           border-radius: 1.5rem;
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -309,7 +310,7 @@ export const CircularTestimonials = ({
         }
         .name {
           font-weight: lighter;
-          margin-bottom: 1.25rem;
+        
         }
         .designation {
           margin-bottom: 2rem;

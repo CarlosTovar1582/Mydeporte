@@ -6,7 +6,7 @@ const testimonials = [
   {
     quote:
       "Esta foto muestra la belleza natural de Ticlio .. Con un fondo expectacular y una nevada que invita a la imaginacion de los ciclistas. ",
-    name: "Foto de Portada",
+    name: "Portada",
     designation: "Restaurant Critic",
     src:
       "https://i.postimg.cc/pXdj4Qrf/Whats-App-Image-2025-07-20-at-8-06-53-AM.jpg",
@@ -35,14 +35,32 @@ const testimonials = [
     src:
       "https://i.postimg.cc/C1m1stjW/Whats-App-Image-2025-07-20-at-9-46-03-AM.jpg",
   },
+  {
+    quote:
+      "2 Grandes leyendas del ciclismo viajero y Julia reunidos en un mismo evento. Gracias por su aporte al grupo AMB ",
+    name: "Evento Canta",
+    designation: "Satisfied Customer",
+    src:
+      "https://i.postimg.cc/43jdgWwm/Whats-App-Image-2025-07-06-at-10-42-01-AM.jpg",
+  },
+  {
+    quote:
+      "El gran shimanito estrenando nuevas tabas para el evento de ticlio. Glorioso proposito ",
+    name: "Evento Ticlio",
+    designation: "Satisfied Customer",
+    src:
+      "https://i.postimg.cc/tCr9br4p/Whats-App-Image-2025-07-16-at-5-47-16-PM.jpg",
+  },
 ];
+
+
 
 export  const CircularTestimonialsDemo = () => (
   <section>
     {/* Dark testimonials section */}
     <div className="bg-[#060507] p-8  mx-1 rounded-lg min-h-[300px] flex flex-wrap  items-center justify-center relative">
       <div
-        className="items-center justify-center relative flex"
+        className="items-center justify-center  relative flex"
         style={{ maxWidth: "1024px" }}
       >
         <CircularTestimonials
