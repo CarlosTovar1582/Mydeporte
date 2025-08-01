@@ -16,7 +16,7 @@ const DemoOne = () => {
   return (
     <div className="flex w-full h-screen justify-center items-center">
       <div 
-        className="w-full max-w-screen-xl mx-auto h-[118vh] overflow-hidden relative rounded-2xl "
+        className="w-full max-w-screen-xl mx-auto h-[120vh] overflow-hidden relative rounded-2xl "
       >
         <Component 
           items={demoItems} 
