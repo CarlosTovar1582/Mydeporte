@@ -5,7 +5,7 @@ import { Default } from "../app/Demo"
 
 import {  InfiniteSliderBasic } from "../app/InfiniteSliderBasic"
 import {DefaultDemo} from "../app/DefaultDemo";
-//import { StackedCircularFooterDemo } from "../app/StackedCircularFooterDemo";
+import { StackedCircularFooterDemo } from "../app/StackedCircularFooterDemo";
 import {CircularTestimonialsDemo} from "../app/CircularTestimonialsDemo ";
 //import { DemoSlider } from "../app/AutoSlider"
 //import { BentoGridGalleryDemo } from "../app/BentoGridGalleryDemo"
