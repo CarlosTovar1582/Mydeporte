@@ -7,7 +7,7 @@ import {  InfiniteSliderBasic } from "../app/InfiniteSliderBasic"
 import {DefaultDemo} from "../app/DefaultDemo";
 import { StackedCircularFooterDemo } from "../app/StackedCircularFooterDemo";
 import {CircularTestimonialsDemo} from "../app/CircularTestimonialsDemo ";
-//import { DemoSlider } from "../app/AutoSlider"
+import { DemoSlider } from "../app/AutoSlider"
 //import { BentoGridGalleryDemo } from "../app/BentoGridGalleryDemo"
 import { DemoOne } from "../app/DemoImagenCard"
 
@@ -24,6 +24,8 @@ export default function Home() {
       <div className="mt-5 pb-10"> <CircularTestimonialsDemo/></div>
       <div className=" mx-10 rounded-3xl pb-10 "> <DefaultDemo words='Rutas y Eventos' /></div>    
       <div> <DemoOne/></div> 
+       <div className=" mx-10 rounded-3xl pb-10 mt-20"> <DefaultDemo words='Grupos' /></div>    
+      <div> <DemoSlider/></div> 
       <div> <StackedCircularFooterDemo/></div>  
 
     </>
