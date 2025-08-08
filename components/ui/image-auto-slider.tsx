@@ -8,7 +8,7 @@ export const Component = () => {
     "https://i.postimg.cc/7Yy1f4X5/Logo-PINAR.png",
     "https://i.postimg.cc/bvbkzFbx/Logo-CHICLAYO.png",
     "https://i.postimg.cc/Kj9gqXS2/Logo-ACIPER.png",
-    "https://i.postimg.cc/pX4BRj4t/Logo-BRENA.png",
+    "https://i.postimg.cc/ZYfmGQLf/Logo-BRENA.png",
     "https://i.postimg.cc/jdpyGbnx/LogoLOBO.png",
   ];
 
