@@ -286,6 +286,7 @@ export const CircularTestimonials = ({
         }
         .testimonial-grid {
           display: grid;
+          width: 100%;
        
         }
         .image-container {
