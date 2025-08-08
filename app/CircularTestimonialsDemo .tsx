@@ -58,7 +58,7 @@ const testimonials = [
 export  const CircularTestimonialsDemo = () => (
   <section>
     {/* Dark testimonials section */}
-    <div className="bg-[#060507] p-8  mx-1 rounded-lg min-h-[300px] flex flex-wrap  items-center justify-center relative">
+    <div className="bg-[#060507] p-1 mt-10  mx-1 rounded-lg min-h-[300px] flex flex-wrap  items-center justify-center relative">
       <div
         className="items-center justify-center  relative flex"
         style={{ maxWidth: "1024px" }}
