@@ -2,11 +2,23 @@ import { Component } from "../components/ui/circular-gallery";
 
 const demoItems = [
   {
-    image: `https://i.postimg.cc/XvjK5Y0w/Whats-App-Image-2025-07-08-at-7-27-51-PM.jpg`,
+    image: `https://i.postimg.cc/pT1H2CGz/apu.webp`,
     text: "",
   },
   {
-    image: `https://i.postimg.cc/QxH515dr/apu.jpg`,
+    image: `https://i.postimg.cc/1tdkxtXK/penitencia.webp`,
+    text: "",
+  },
+  {
+    image: `https://i.postimg.cc/cHqkrNbN/callahuanca.webp`,
+    text: "",
+  },
+  {
+    image: `https://i.postimg.cc/Y0zs5y8B/huacho.webp`,
+    text: "",
+  },
+  {
+    image: `https://i.postimg.cc/y8dbGjZ2/pisco.webp`,
     text: "",
   },
 
@@ -14,9 +26,9 @@ const demoItems = [
 
 const DemoOne = () => {
   return (
-    <div className="flex w-full h-screen justify-center items-center">
+    <div className="flex w-full h-96 justify-center items-center mt-40 ">
       <div 
-        className="w-full max-w-screen-xl mx-auto h-[118vh] overflow-hidden relative rounded-2xl "
+        className="w-full max-w-screen-xl mx-auto h-[100vh] overflow-hidden relative rounded-2xl "
       >
         <Component 
           items={demoItems} 

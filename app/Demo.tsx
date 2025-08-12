@@ -28,7 +28,7 @@ export  default function Default() {
       textColor={getTextColor(theme)}
       strokeColor={getStrokeColor(theme)}
       minFontSize={36}
-      className="cursor-default"
+      className="cursor-default "
     />
   )
 }

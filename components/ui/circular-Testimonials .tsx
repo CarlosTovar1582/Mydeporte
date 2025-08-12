@@ -184,10 +184,10 @@ export const CircularTestimonials = ({
   };
 
   return (
-    <div className="testimonial-container">
+    <div className="testimonial-container ">
       <div className="testimonial-grid ">
         {/* Images */}
-        <div className="image-container mt-2 " ref={imageContainerRef}>
+        <div className="image-container mt-2 sm:w-full sm:h-full " ref={imageContainerRef}>
           {testimonials.map((testimonial, index) => (
             <img
            
@@ -201,7 +201,7 @@ export const CircularTestimonials = ({
           ))}
         </div>
         {/* Content */}
-        <div className="testimonial-content md:ml-14 ">
+        <div className="testimonial-content md:ml-14 pb-6 ">
           <AnimatePresence mode="wait">
             <motion.div
               key={activeIndex}
@@ -280,25 +280,26 @@ export const CircularTestimonials = ({
       </div>
       <style jsx>{`
         .testimonial-container {
-          width: 100%;        
+          width: 85%;        
           max-width: 100rem;
          
         }
         .testimonial-grid {
           display: grid;
+          width: 100%;
        
         }
         .image-container {
           position: relative;
           width: 100%;
-          height: 25rem;
+          height: 15rem;
           perspective: 3000px;
       
         }
         .testimonial-image {
           position: absolute;
           width: 100%;
-          height: 85%;
+          height: 100%;
           object-fit: cover;
           border-radius: 1.5rem;
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);

@@ -9,7 +9,7 @@ const testimonials = [
     name: "Portada",
     designation: "Restaurant Critic",
     src:
-      "https://i.postimg.cc/pXdj4Qrf/Whats-App-Image-2025-07-20-at-8-06-53-AM.jpg",
+      "https://i.postimg.cc/j5FkLdpk/Whats-App-Image-2025-07-20-at-5-42-36-PM.webp",
   },
   {
     quote:
@@ -17,7 +17,7 @@ const testimonials = [
     name: "El gran Carlitos",
     designation: "Frequent Visitor",
     src:
-      "https://i.postimg.cc/cLnvGFSn/Whats-App-Image-2025-07-20-at-9-20-46-AM.jpg",
+      "https://i.postimg.cc/NjtYgp72/Whats-App-Image-2025-07-20-at-9-38-53-AM.webp",
   },
   {
     quote:
@@ -25,7 +25,7 @@ const testimonials = [
     name: "Maestra Julia",
     designation: "Satisfied Customer",
     src:
-      "https://i.postimg.cc/1z1fmDmY/Whats-App-Image-2025-07-20-at-11-43-32-AM.jpg",
+      "https://i.postimg.cc/dVnMJvVg/Whats-App-Image-2025-07-20-at-8-06-53-AM.webp",
   },
   {
     quote:
@@ -33,7 +33,7 @@ const testimonials = [
     name: "Evento Ticlio",
     designation: "Satisfied Customer",
     src:
-      "https://i.postimg.cc/C1m1stjW/Whats-App-Image-2025-07-20-at-9-46-03-AM.jpg",
+      "https://i.postimg.cc/YCrVnVzR/Whats-App-Image-2025-07-20-at-9-46-03-AM.webp",
   },
   {
     quote:
@@ -41,16 +41,9 @@ const testimonials = [
     name: "Evento Canta",
     designation: "Satisfied Customer",
     src:
-      "https://i.postimg.cc/43jdgWwm/Whats-App-Image-2025-07-06-at-10-42-01-AM.jpg",
+      "https://i.postimg.cc/1tCbwKqB/Whats-App-Image-2025-07-06-at-10-42-01-AM.webp",
   },
-  {
-    quote:
-      "El gran shimanito estrenando nuevas tabas para el evento de ticlio. Glorioso proposito ",
-    name: "Evento Ticlio",
-    designation: "Satisfied Customer",
-    src:
-      "https://i.postimg.cc/tCr9br4p/Whats-App-Image-2025-07-16-at-5-47-16-PM.jpg",
-  },
+
 ];
 
 
@@ -58,7 +51,7 @@ const testimonials = [
 export  const CircularTestimonialsDemo = () => (
   <section>
     {/* Dark testimonials section */}
-    <div className="bg-[#060507] p-8  mx-1 rounded-lg min-h-[300px] flex flex-wrap  items-center justify-center relative">
+    <div className="bg-[#060507] p-1 mt-10  mx-1 rounded-lg min-h-[300px] flex flex-wrap  items-center justify-center relative">
       <div
         className="items-center justify-center  relative flex"
         style={{ maxWidth: "1024px" }}
@@ -75,7 +68,7 @@ export  const CircularTestimonialsDemo = () => (
             arrowHoverBackground: "#f7f7ff",
           }}
           fontSizes={{
-            name: "50px",
+            name: "35px",
             designation: "20px",
             quote: "20px",
           }}
