@@ -31,15 +31,7 @@ function StackedCircularFooter() {
               <span className="sr-only">LinkedIn</span>
             </Button>
           </div>
-          <div className="mb-8 w-full max-w-md">
-            <div className="flex space-x-2">
-              <div className="flex-grow">
-                <Label htmlFor="email" className="sr-only">Email</Label>
-                <Input id="email" placeholder="Enter your email" type="email" className="rounded-full" />
-              </div>
-              <Button type="submit" className="rounded-full">Subscribe</Button>
-            </div>
-          </div>
+         
           <div className="text-center">
             <p className="text-sm text-muted-foreground">
             Copyright © 2025 Mydeporte – Creado por NinjaStark.
