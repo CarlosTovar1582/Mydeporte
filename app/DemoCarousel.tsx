@@ -15,7 +15,7 @@ import { ScrollXCarousel,
       services: ['branding', 'design'],
       type: 'Agency',
       imageUrl:
-        'https://images.unsplash.com/photo-1688733720228-4f7a18681c4f?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        'https://i.postimg.cc/mrQ6h2w9/Whats-App-Image-2025-07-30-at-2-39-01-PM-1.webp',
     },
     {
       id: 'slide-2',
@@ -25,7 +25,7 @@ import { ScrollXCarousel,
       services: ['branding', 'design', 'development'],
       type: 'blockchain',
       imageUrl:
-        'https://images.unsplash.com/photo-1624996752380-8ec242e0f85d?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        'https://i.postimg.cc/L5yWRCV0/Whats-App-Image-2025-08-01-at-9-51-38-PM-1.webp',
     },
     {
       id: 'slide-3',
@@ -35,7 +35,7 @@ import { ScrollXCarousel,
       services: ['branding', 'design', 'payment getaway', 'development'],
       type: 'ecommerce',
       imageUrl:
-        'https://images.unsplash.com/photo-1574717025058-2f8737d2e2b7?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        'https://i.postimg.cc/wTGrGrM1/Whats-App-Image-2025-08-01-at-9-51-39-PM-1-1.webp',
     },
     {
       id: 'slide-1',
@@ -45,17 +45,7 @@ import { ScrollXCarousel,
       services: ['branding', 'design', 'development'],
       type: 'SaaS',
       imageUrl:
-        'https://images.unsplash.com/photo-1654618977232-a6c6dea9d1e8?q=80&w=2486&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    },
-    {
-      id: 'slide-4',
-      title: 'SEO Optimization',
-      description:
-        'We build a SaaS platform for the masses, with a focus on user experience and security, and data privacy.',
-      services: ['branding', 'design', 'development'],
-      type: 'SaaS',
-      imageUrl:
-        'https://images.unsplash.com/photo-1726066012698-bb7a3abce786?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        'https://i.postimg.cc/fW5pxyhj/Whats-App-Image-2025-08-01-at-9-51-39-PM-1.webp',
     },
   ];
   
@@ -76,7 +66,7 @@ import { ScrollXCarousel,
                   <img
                     alt={slide.title}
                     src={slide.imageUrl}
-                    className="size-full aspect-square"
+                    className="size-full aspect-square object-scale-down"
                   />
                 </CardHoverRevealMain>
              
