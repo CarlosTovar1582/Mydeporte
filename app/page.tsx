@@ -8,7 +8,7 @@ import {DefaultDemo} from "../app/DefaultDemo";
 import { StackedCircularFooterDemo } from "../app/StackedCircularFooterDemo";
 import {CircularTestimonialsDemo} from "../app/CircularTestimonialsDemo ";
 import { DemoSlider } from "../app/AutoSlider"
-import { DemoCarousel } from "../app/DemoCarousel";
+
 //anuncios
 //import { LayoutGridDemo } from "../app/DemoFotos"
 //noticias
@@ -33,7 +33,7 @@ export default function Home() {
       <div className=" mx-10 rounded-3xl pb-10 "> <DefaultDemo words='Eventos' /></div>    
       <div> <DemoOne/></div>   
       <div className=" mx-10 rounded-3xl pb-10 mt-72 "> <DefaultDemo words='Imagenes' /></div>    
-      <div> <DemoCarousel/></div>       
+
       
    
          
