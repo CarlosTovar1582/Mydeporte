@@ -17,7 +17,7 @@ const AnimatedText = React.forwardRef<HTMLDivElement, AnimatedTextProps>(
     {
       text,
       gradientColors = "linear-gradient(90deg, #000, #fff, #000)",
-      gradientAnimationDuration = 2,
+      gradientAnimationDuration = 1,
       hoverEffect = false,
       className,
       textClassName,
@@ -53,7 +53,7 @@ const AnimatedText = React.forwardRef<HTMLDivElement, AnimatedTextProps>(
             background: gradientColors,
             backgroundSize: "200% auto",
             WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
+            //WebkitTextFillColor: "transparent",
             textShadow: isHovered ? "0 0 8px rgba(255,255,255,0.3)" : "none",
           }}
           variants={textVariants}
