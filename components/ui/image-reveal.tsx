@@ -157,7 +157,7 @@ export const ImageHover = () => {
         const overlayOpacity = hovered && lerpedPos && radius > 0 ? 'opacity-90' : 'opacity-100';
 
         return (
-                <div className='bg-black h-96 w-screen flex justify-center items-center'>
+                <div className='bg-black h-96 w-full flex justify-center items-center '>
                         <div
                                 ref={containerRef}
                                 className="container relative w-[90%] md:w-2/3 lg:w-2/3 aspect-video max-w-4xl rounded-xl border-[0.5px] border-neutral-700 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] overflow-hidden"

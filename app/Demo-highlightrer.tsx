@@ -52,7 +52,7 @@ export function Connect() {
     );
   }, [animate]);
   return (
-    <section className="relative mx-4 mb-20 mt-6 max-w-5xl bg-black rounded-2xl ">
+    <section className="relative mx-2 mb-20 mt-6 max-w-5xl bg-black rounded-2xl ">
       <HighlightGroup className="group h-full">
         <div
           className="group/item h-full md:col-span-6 lg:col-span-12"
