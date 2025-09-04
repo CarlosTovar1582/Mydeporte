@@ -25,7 +25,7 @@ export const metadata: Metadata = {
       'google-site-verification': 'google9ba9e0c49226ea45.html'
   },
    robots: {
-      index: false,
+      index: true,
       follow: false, // Optional: also prevent following links on the page
   },
 };
