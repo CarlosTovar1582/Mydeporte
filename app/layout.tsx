@@ -23,7 +23,11 @@ export const metadata: Metadata = {
      // Incluye tu etiqueta de verificación aquí
   other: {
       'google-site-verification': 'google9ba9e0c49226ea45.html'
-  }
+  },
+   robots: {
+      index: false,
+      follow: false, // Optional: also prevent following links on the page
+  },
 };
 
 export default function RootLayout({
