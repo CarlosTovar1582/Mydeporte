@@ -72,7 +72,7 @@ export function Connect() {
                     className="relative mx-auto h-[270px] w-[300px] md:h-[270px] md:w-[300px]"
                     ref={scope}
                   >
-                    <DIcons.Designali className="absolute left-1/2 top-1/2 h-6 w-6 -translate-x-1/2 -translate-y-1/2" />
+                    
                     <div
                       id="next-js"
                       className="absolute bottom-12 left-14 rounded-3xl border border-slate-400 bg-slate-200 px-2 py-1.5 text-xs opacity-50 dark:border-slate-600 dark:bg-slate-800"
@@ -132,20 +132,7 @@ export function Connect() {
                       Por el momento todo lo referente al ciclismo !
                     </p>
                     <div className="flex flex-wrap gap-2 ">                  
-                      <Link
-                        href="mailto:carlostovarrojas@gmail.com"
-                        target="_blank"
-                        className={cn(
-                          buttonVariants({
-                            variant: "outline",
-                            size: "icon",
-                          }),
-                        )}
-                      >
-                        <span className="flex items-left gap-1 ">
-                          <DIcons.Mail strokeWidth={1} className="h-16 w-16" />
-                        </span>
-                      </Link>
+                 
                       <Link
                         href="https://wa.me/997373676"
                         target="_blank"
