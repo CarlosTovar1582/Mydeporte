@@ -133,23 +133,7 @@ export function Connect() {
                     </p>
                     <div className="flex flex-wrap gap-2 ">                  
                  
-                      <Link
-                        href="https://wa.me/997373676"
-                        target="_blank"
-                        className={cn(
-                          buttonVariants({
-                            variant: "outline",
-                            size: "icon",                       
-                          }),
-                        )}
-                      >
-                        <span className="flex items-right gap-1 ">
-                          <DIcons.WhatsApp
-                            strokeWidth={1}
-                            className="h-16 w-16"
-                          />
-                        </span>
-                      </Link>
+          
                     </div>
                   </div>
                 </div>
