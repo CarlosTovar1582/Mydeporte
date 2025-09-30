@@ -87,7 +87,7 @@ const CircularGallery = React.forwardRef<HTMLDivElement, CircularGalleryProps>(
         role="region"
         aria-label="Circular 3D Gallery"
         className={cn("relative w-full h-full flex items-center justify-center", className)}
-        style={{ perspective: '2000px' }}
+        style={{ perspective: '1800px' }}
         {...props}
       >
         <div
@@ -115,16 +115,16 @@ const CircularGallery = React.forwardRef<HTMLDivElement, CircularGalleryProps>(
                   left: '50%',
                   top: '50%',
                   marginLeft: '-150px',
-                  marginTop: '-200px',
+                  marginTop: '-100px',
                   opacity: opacity,
                   transition: 'opacity 0.3s linear'
                 }}
               >
-                <div className="relative w-full h-full rounded-lg shadow-2xl overflow-hidden group border border-border bg-card/70 dark:bg-card/30 backdrop-blur-lg">
+                <div className="relative h-60 w-full rounded-lg shadow-2xl overflow-hidden group border border-border bg-card/70 dark:bg-card/30 backdrop-blur-lg">
                   <img
                     src={item.photo.url}
                     alt={item.photo.text}
-                    className="absolute inset-0 w-full h-full object-cover"
+                    className="absolute inset-0 h-60 w-96 object-cover"
                     style={{ objectPosition: item.photo.pos || 'center' }}
                   />
                   {/* Replaced text-primary-foreground with text-white for consistent color */}
