@@ -11,72 +11,72 @@ import {
   
   const architecturalWonders: CardItem[] = [
     {
-      id: "pyramids-giza",
-      title: "Pyramids of Giza",
+      id: "callahuanca-01",
+      title: "Letrero de Callahuanca",
       description:
-        "The last surviving of the Seven Wonders of the Ancient World, these monumental tombs have stood for over 4,500 years.",
+        "Ciclistas tomandose su respectiva foto..",
       imgSrc:
-        "https://images.unsplash.com/photo-1568322445389-f64ac2515020?auto=format&fit=crop&w=1200",
+        "https://i.postimg.cc/65NF7fbZ/DJI-20250907122825-0075-D.webp",
       icon: <Pyramid size={24} />,
       linkHref: "#",
     },
     {
-      id: "great-wall",
-      title: "Great Wall of China",
+      id: "callahuanca-02",
+      title: "Fondito carretera central",
       description:
-        "A vast series of fortifications stretching thousands of miles, built to protect Chinese states and empires against raids.",
+        "Un tramo que se esta recorriendo a lo largo de la carretera central.",
       imgSrc:
-        "https://images.unsplash.com/flagged/photo-1552553030-837c9c2b0fac?w=900&auto=format&fit=crop&q=60",
+        "https://i.postimg.cc/1RNL33SJ/video-calla-01.webp",
       icon: <Castle size={24} />,
       linkHref: "#",
     },
     {
-      id: "machu-picchu",
-      title: "Machu Picchu",
+      id: "callahuanca-03",
+      title: "Reunion ciclista",
       description:
-        "An Incan citadel set high in the Andes Mountains in Peru, renowned for its sophisticated dry-stone walls that fuse huge blocks.",
+        "Terminando la subida de callahuanca y la gran mayoria se reunio para un respectivo descanso antes de la masacre de las z.",
       imgSrc:
-        "https://images.unsplash.com/photo-1585329017236-46abbe0f301f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFjaHUlMjBwaWNodXxlbnwwfDF8MHx8fDA%3D",
+        "https://i.postimg.cc/VvMTGD4r/video-calla-05.webp",
       icon: <Mountain size={24} />,
       linkHref: "#",
     },
     {
-      id: "eiffel-tower",
-      title: "Eiffel Tower",
+      id: "callahuanca-04",
+      title: "A punto chosica",
       description:
-        "A global cultural icon of France and one of the most recognizable structures in the world, offering panoramic views of Paris.",
+        "Los mas rapidos empezaron a meterle duro al pedal .",
       imgSrc:
-        "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=1200",
+        "https://i.postimg.cc/NGrWjjtP/video-calla-03.webp",
       icon: <TowerControl size={24} />,
       linkHref: "#",
     },
     {
-      id: "burj-khalifa",
-      title: "Burj Khalifa",
+      id: "callahuanca-05",
+      title: "Fotos Respectivas",
       description:
-        "The world's tallest building, a modern architectural marvel in Dubai that pierces the sky at over 828 meters.",
+        "Ya apunto de hacer la bajada de trocha , pero antes sus respecticas foticos.",
       imgSrc:
-        "https://images.unsplash.com/photo-1572364769167-198dcb7b520c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVyaiUyMGtoYWxpZmF8ZW58MHwxfDB8fHww",
+        "https://i.postimg.cc/Y0gVnb81/video-calla-06.webp",
       icon: <Building size={24} />,
       linkHref: "#",
     },
     {
-      id: "taj-mahal",
-      title: "Taj Mahal",
+      id: "callahuanca-06",
+      title: "Penultima z",
       description:
-        "An immense mausoleum of white marble, built in Agra between 1631 and 1648 by order of the Mughal emperor Shah Jahan.",
+        "Ya casi por llegar al pueblo de callahuanca tenemos una vista privilegiada de callahuanca.",
       imgSrc:
-        "https://plus.unsplash.com/premium_photo-1697730352959-a77dac39c883?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dGFqJTIwbWFoYWx8ZW58MHwxfDB8fHww",
+        "https://i.postimg.cc/vT9jq3XR/video-calla-07.webp",
       icon: <Landmark size={24} />,
       linkHref: "#",
     },
     {
-      id: "colosseum",
-      title: "The Colosseum",
+      id: "callahuanca-07",
+      title: "Ultima z",
       description:
-        "The largest ancient amphitheater ever built, it remains the largest standing amphitheater in the world today.",
+        "Con este fondo de la ultima z use se relaja viendo el paisaje hermoso.",
       imgSrc:
-        "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1200",
+        "https://i.postimg.cc/GtYN7qzr/video-calla-08.webp",
       icon: <Landmark size={24} />,
       linkHref: "#",
     },
@@ -87,10 +87,10 @@ import {
       <div className="flex w-full flex-col items-center justify-center space-y-8 bg-background p-4 md:p-8">
         <div className="text-center">
           <h1 className="text-3xl font-bold tracking-tight  sm:text-4xl text-blue-800">
-            Evento Pisco
+            Evento Callahuanca
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-muted-foreground">
-            Estas son unas cuantas imagenes que nos regalo el evento de Pisco jeje.
+            Estas son unas cuantas imagenes que nos regalo callahuanca 2026 .
           </p>
         </div>
         <ExpandingCards items={architecturalWonders} defaultActiveIndex={0} />
