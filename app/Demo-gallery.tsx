@@ -3,101 +3,101 @@ import { CircularGallery, GalleryItem } from '../components/ui/circular-gallery-
 
 const galleryData: GalleryItem[] = [
 	{
-		common: 'Lion',
-		binomial: 'Panthera leo',
+		common: 'Estadio',
+		binomial: '-',
 		photo: {
-			url: 'https://images.unsplash.com/photo-1583499871880-de841d1ace2a?w=900&auto=format&fit=crop&q=80',
+			url: 'https://i.postimg.cc/nh91kr2Q/dji-fly-20250907-110202-769-1757261307227-photo-optimized.webp',
 			text: 'lion couple kissing on a brown rock',
 			pos: '47% 35%',
-			by: 'Clément Roy'
+			by: 'mydeporte'
 		}
 	},
 	{
-		common: 'Asiatic elephant',
-		binomial: 'Elephas maximus',
+		common: 'Satisfaccion',
+		binomial: '-',
 		photo: {
-			url: 'https://images.unsplash.com/photo-1571406761758-9a3eed5338ef?w=900&auto=format&fit=crop&q=80',
+			url: 'https://i.postimg.cc/MpfYDH5G/dji-fly-20250907-105840-762-1757261290030-photo-optimized.webp',
 			text: 'herd of Sri Lankan elephants walking away from a river',
 			pos: '75% 65%',
-			by: 'Alex Azabache'
+			by: 'mydeporte'
 		}
 	},
 	{
-		common: 'Red-tailed black cockatoo',
-		binomial: 'Calyptorhynchus banksii',
+		common: 'Grupo Red',
+		binomial: '-',
 		photo: {
-			url: 'https://images.unsplash.com/photo-1619664208054-41eefeab29e9?w=900&auto=format&fit=crop&q=80',
+			url: 'https://i.postimg.cc/s2p9kLbm/dji-fly-20250907-105708-755-1757260995836-photo-optimized.webp',
 			text: 'close-up of a black cockatoo',
 			pos: '53% 43%',
-			by: 'David Clode'
+			by: 'mydeporte'
 		}
 	},
 	{
-		common: 'Dromedary',
-		binomial: 'Camelus dromedarius',
+		common: 'Sujeto AMB',
+		binomial: '',
 		photo: {
-			url: 'https://images.unsplash.com/photo-1662841238473-f4b137e123cb?w=900&auto=format&fit=crop&q=80',
+			url: 'https://i.postimg.cc/PfKKfBNC/dji-fly-20250907-103710-743-1757260716382-photo-optimized.webp',
 			text: 'camel and her new born calf walking in the Sahara desert',
 			pos: '65% 65%',
-			by: 'Moaz Tobok'
+			by: 'mydeporte'
 		}
 	},
 	{
-		common: 'Polar bear',
-		binomial: 'Ursus maritimus',
+		common: 'Fotito trepada',
+		binomial: '-',
 		photo: {
-			url: 'https://images.unsplash.com/photo-1589648751789-c8ecb7a88bd5?w=900&auto=format&fit=crop&q=80',
+			url: 'https://i.postimg.cc/SxYGrRrB/dji-fly-20250907-103240-723-1757259454398-photo-optimized.webp',
 			text: 'polar bear on the snow, by the water, raised on the hind legs, front paws together',
 			pos: '50% 25%',
-			by: 'Hans-Jurgen Mager'
+			by: 'mydeporte'
 		}
 	},
 	{
-		common: 'Giant panda',
-		binomial: 'Ailuropoda melanoleuca',
+		common: 'Fotito  trapada',
+		binomial: '-',
 		photo: {
-			url: 'https://images.unsplash.com/photo-1659540181281-1d89d6112832?w=900&auto=format&fit=crop&q=80',
+			url: 'https://i.postimg.cc/Gp0xSRg9/dji-fly-20250907-103222-720-1757259408470-photo-optimized.webp',
 			text: 'giant panda hanging from a tree branch',
 			pos: '47%',
-			by: 'Jiachen Lin'
+			by: 'mydeporte'
 		}
 	},
 	{
-		common: 'Grévy\'s zebra',
-		binomial: 'Equus grevyi',
+		common: 'Ultima trepada',
+		binomial: '-',
 		photo: {
-			url: 'https://images.unsplash.com/photo-1526095179574-86e545346ae6?w=900&auto=format&fit=crop&q=80',
+			url: 'https://i.postimg.cc/TYw0KCWg/dji-fly-20250907-102720-686-1757258886224-photo-optimized.webp',
 			text: 'zebra standing on wheat field, looking back towards the camera',
 			pos: '65% 35%',
-			by: 'Jeff Griffith'
+			by: 'mydeporte'
 		}
 	},
 	{
-		common: 'Cheetah',
-		binomial: 'Acinonyx jubatus',
+		common: 'Guerrero',
+		binomial: '-',
 		photo: {
-			url: 'https://images.unsplash.com/photo-1541707519942-08fd2f6480ba?w=900&auto=format&fit=crop&q=80',
+			url: 'https://i.postimg.cc/bwZmB3zW/DJI-20250907095259-0058-D.webp',
 			text: 'cheetah sitting in the grass under a blue sky',
-			by: 'Mike Bird'
+			by: 'mydeporte'
 		}
 	},
 	{
-		common: 'King penguin',
-		binomial: 'Aptenodytes patagonicus',
+		common: 'Reunion',
+		binomial: '-',
 		photo: {
-			url: 'https://images.unsplash.com/photo-1595792419466-23cec2476fa6?w=900&auto=format&fit=crop&q=80',
+			url: 'https://i.postimg.cc/C5MNH4r0/DJI-20250907085754-0037-D.webp',
 			text: 'king penguin with a fluffy brown chick on grey rocks',
 			pos: '35%',
-			by: 'Martin Wettstein'
+			by: 'mydeporte'
 		}
 	},
 	{
-		common: 'Red panda',
-		binomial: 'Ailurus fulgens',
+		common: 'Fondito',
+		binomial: '-',
 		photo: {
-			url: 'https://images.unsplash.com/photo-1689799513565-44d2bc09d75b?w=900&auto=format&fit=crop&q=80',
+			url: 'https://i.postimg.cc/PxQyw74Q/DJI-20250907070202-0005-D.webp',
 			text: 'a red panda in a tree',
-			by: 'Niels Baars'
+			by: 'mydeporte'
 		}
 	},
 ];
