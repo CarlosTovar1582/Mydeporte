@@ -5,11 +5,11 @@ import { CircularTestimonials } from '../components/ui/circular-Testimonials ';
 const testimonials = [
   {
     quote:
-      "Esta foto muestra la belleza natural de Ticlio .. Con un fondo expectacular y una nevada que invita a la imaginacion de los ciclistas. ",
+      "A la distancia se puede observar a la comunidad ciclista que le da duro al pedal a lo largo de la carreterra central ",
     name: "Portada",
     designation: "Restaurant Critic",
     src:
-      "https://i.postimg.cc/j5FkLdpk/Whats-App-Image-2025-07-20-at-5-42-36-PM.webp",
+      "https://i.postimg.cc/Y2mJCC7n/video-calla-02.webp",
   },
   {
     quote:
@@ -29,11 +29,11 @@ const testimonials = [
   },
   {
     quote:
-      "Sabado 19 y 20 de julio se celebro el evento de Ticlio... El cual es considerado como ruta Madre .. Este evento se evidencio el esfuerzo fisico de todos los ciclistas . ",
-    name: "Evento Ticlio",
+      "El ciclista que aparece en la foto pensando la rica bajada que esta por vivir jaja. ",
+    name: "Evento Callahuanca",
     designation: "Satisfied Customer",
     src:
-      "https://i.postimg.cc/YCrVnVzR/Whats-App-Image-2025-07-20-at-9-46-03-AM.webp",
+      "https://i.postimg.cc/j2N9gZvs/video-calla-09.webp",
   },
   {
     quote:
